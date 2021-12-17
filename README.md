@@ -1,27 +1,28 @@
-# PaymentApp
+<p align="center"><a href="https://nodejs.org/en" target="_blank"><img src="./.github/logo.svg" width="400"></a></p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.1.2.
+## ✨ Tecnologias
 
-## Development server
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+- [Tecnologia 1](https://github.com)
+- [Tecnologia 2](https://github.com)
 
-## Code scaffolding
+## 💻 Projeto
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+O projeto é uma ...
 
-## Build
+## 🚀 Como executar
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Clone o repositório
+- Instale as dependências com `comando`
+- Inicie o servidor com `comando`
 
-## Running unit tests
+Agora você pode fazer as requisições que estão no arquivo [`request.http`](request.http).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## 📄 Licença
 
-## Running end-to-end tests
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+---
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Feito por [otávio silva](https://otaviothor.github.io/) 🙃
