@@ -1,4 +1,4 @@
-<p align="center"><a href="https://nodejs.org/en" target="_blank"><img src="./.github/logo.svg" width="400"></a></p>
+<p align="center"><a href="https://angular.io/" target="_blank"><img src="./.github/logo.svg" width="400"></a></p>
 
 ## ✨ Tecnologias
 
