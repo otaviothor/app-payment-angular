@@ -1,15 +1,14 @@
-<p align="center"><a href="https://nodejs.org/en" target="_blank"><img src="./.github/logo.svg" width="400"></a></p>
+<p align="center"><a href="https://nodejs.org/en" target="_blank"><img src="./.github/angular-logo.png" width="400"></a></p>
 
 ## ✨ Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-- [Tecnologia 1](https://github.com)
-- [Tecnologia 2](https://github.com)
+- [Angular](https://angular.io/)
 
 ## 💻 Projeto
 
-O projeto é uma ...
+O projeto é uma aplicação web pagamentos feito com Angular e deve ser usado em conjunto da API de pagamentos. [Clique aqui](https://github.com/otaviothor/api-payment-dotnet) para acessar o repositório.
 
 ## 🚀 Como executar
 
