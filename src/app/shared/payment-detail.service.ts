@@ -24,6 +24,10 @@ export class PaymentDetailService {
     );
   }
 
+  deletePaymentDetail(id: number): Observable<void> {
+    return this.http.delete<void>(`${this.baseUrl}/${id}`);
+  }
+
   refreshList(): void {
     this.http.get(this.baseUrl).subscribe({
       next: (next) => {
