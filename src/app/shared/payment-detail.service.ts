@@ -17,6 +17,13 @@ export class PaymentDetailService {
     return this.http.post<PaymentDetail>(this.baseUrl, this.formData);
   }
 
+  putPaymentDetail(): Observable<void> {
+    return this.http.put<void>(
+      `${this.baseUrl}/${this.formData.paymentDetailId}`,
+      this.formData
+    );
+  }
+
   refreshList(): void {
     this.http.get(this.baseUrl).subscribe({
       next: (next) => {

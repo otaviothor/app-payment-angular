@@ -18,12 +18,31 @@ export class PaymentDetailsFormComponent implements OnInit {
   ngOnInit(): void {}
 
   onSubmit(form: NgForm): void {
+    if (this.service.formData.paymentDetailId === 0) this.insertRecord(form);
+    else this.updateRecord(form);
+  }
+
+  insertRecord(form: NgForm): void {
     this.service.postPaymentDetail().subscribe({
       next: (_) => {
         this.toast.success('Submitted successfully', 'Payment detail register');
+        this.service.refreshList();
         this.resetForm(form);
       },
-      error: (error) => console.error(error),
+      error: (_) =>
+        this.toast.error('Some error ccurred', 'Payment detail register'),
+    });
+  }
+
+  updateRecord(form: NgForm): void {
+    this.service.putPaymentDetail().subscribe({
+      next: (_) => {
+        this.toast.info('Updated successfully', 'Payment detail register');
+        this.service.refreshList();
+        this.resetForm(form);
+      },
+      error: (_) =>
+        this.toast.error('Some error ccurred', 'Payment detail register'),
     });
   }
 
