@@ -19,7 +19,7 @@
       <tbody>
         <tr *ngFor="let payment of service.list">
           <td (click)="populateForm(payment)">{{payment.cardOwnerName}}</td>
-          <td>{{payment.cardNumber}}</td>
+          <td>{{payment.cardNumber | cardNumber: true}}</td>
           <td>{{payment.expirationDate}}</td>
           <td>
             <i class="far fa-trash-alt fa-lg text-danger" (click)="onDelete(payment.paymentDetailId)"></i>

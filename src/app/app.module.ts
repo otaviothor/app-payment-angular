@@ -8,12 +8,14 @@ import { PaymentDetailsFormComponent } from './payment-details/payment-details-f
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ToastrModule } from 'ngx-toastr';
+import { CardNumberPipe } from './shared/pipe/card-number.pipe';
 
 @NgModule({
   declarations: [
     AppComponent,
     PaymentDetailsComponent,
     PaymentDetailsFormComponent,
+    CardNumberPipe,
   ],
   imports: [
     BrowserModule,
