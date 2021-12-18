@@ -13,10 +13,12 @@ O projeto é uma aplicação web pagamentos feito com Angular e deve ser usado e
 ## 🚀 Como executar
 
 - Clone o repositório
-- Instale as dependências com `comando`
-- Inicie o servidor com `comando`
+- Instale as dependências com `yarn`
+- Inicie o servidor com `yarn start`
 
-Agora você pode fazer as requisições que estão no arquivo [`request.http`](request.http).
+Agora você pode acessar [`localhost:4200`](http://localhost:4200) do seu navegador.
+
+*Obs.: para rodar o projeto, é necessário rodar a api feita em .NET Core que está [neste repositório](https://github.com/otaviothor/api-payment-dotnet/)
 
 ## 📄 Licença
 
