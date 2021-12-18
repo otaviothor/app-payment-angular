@@ -17,7 +17,7 @@
         [(ngModel)]="service.formData.securityCode" required minlength="3" maxlength="3" [class.invalid]="securityCode.invalid && securityCode.touched">
     </div>
     <div class="form-group mt-3 col-md-6">
-      <label>Valide Through</label>
+      <label>Expiration Through</label>
       <input type="text" class="form-control" placeholder="MM/YY" name="expirationDate" #expirationDate="ngModel"
         [(ngModel)]="service.formData.expirationDate" required minlength="5" maxlength="5" [class.invalid]="expirationDate.invalid && expirationDate.touched">
     </div>

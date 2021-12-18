@@ -11,8 +11,17 @@ export class PaymentDetailService {
 
   formData: PaymentDetail = new PaymentDetail();
   readonly baseUrl = 'https://localhost:5001/api/PaymentDetail';
+  list: PaymentDetail[];
 
   postPaymentDetail(): Observable<PaymentDetail> {
     return this.http.post<PaymentDetail>(this.baseUrl, this.formData);
+  }
+
+  refreshList(): void {
+    this.http.get(this.baseUrl).subscribe({
+      next: (next) => {
+        this.list = next as PaymentDetail[];
+      },
+    });
   }
 }
